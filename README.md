@@ -7,6 +7,6 @@ A simple and user-friendly task managemnet web application.
 - Clean UI
 
 ## Technologies Used
--HTML
--CSS
--JavaScript 
+- HTML
+- CSS
+- JavaScript 
