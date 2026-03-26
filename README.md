@@ -1,2 +1,12 @@
 # todo-web-app
-Simple To-Do List using HTML, CSS, JavaScript 
+A simple and user-friendly task managemnet web application.
+
+## Features
+- Add tasks
+- Delete tasks
+- Clean UI
+
+## Technologies Used
+-HTML
+-CSS
+-JavaScript 
