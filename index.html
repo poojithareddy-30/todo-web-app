@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- AUTH SECTION -->
+  <div id="auth">
+    <h2 id="authTitle">Login</h2>
+
+    <input type="text" id="username" placeholder="Username" style="display:none;">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+
+    <button id="authBtn" onclick="handleAuth()">Login</button>
+
+    <p id="toggleText">
+      Don't have an account? 
+      <span onclick="toggleAuth()">Create one</span>
+    </p>
+  </div>
+
+  <!-- TODO APP -->
+  <div id="todo-app" style="display:none;">
+    <h1>To-Do App</h1>
+
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <select id="taskSchedule">
+        <option value="today">Today</option>
+        <option value="tomorrow">Tomorrow</option>
+        <option value="thisWeek">This Week</option>
+        <option value="nextWeek">Next Week</option>
+      </select>
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
